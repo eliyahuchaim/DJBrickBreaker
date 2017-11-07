@@ -1,0 +1,45 @@
+div.paddle {
+  background-color: black;
+  height: 25px;
+  width: 100px;
+  position: absolute;
+  top: 760px;
+  left: 650px;
+}
+
+div.ball {
+  background-color: grey;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  top: 400px;
+  left: 685px;
+  position: absolute; }
+
+  div.block {
+    background-color: #00ceff;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    border-style: solid;
+  }
+
+  div.centered {
+    margin: 0 auto;
+    width: 100px;
+  }
+
+  div.score {
+    font-family: monospace;
+    font-size: -webkit-xxx-large;
+    position: absolute;
+    left: 650px;
+  }
+
+  div.starter {
+    font-size: larger;
+    font-family: monospace;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+  }
