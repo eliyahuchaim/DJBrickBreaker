@@ -40,12 +40,14 @@ class Game {
     }
     else if (ballYAxis > 765) {
       this.gameOver = true
-      alert("Game Over :(")
       clearInterval(this.interval)
+      alert("Game Over :( Click Ok to restart the game")
+      document.location.reload()
     } else if (this.blocksArr.length === 0) {
       this.gameOver = true
-      alert("you said hi to DJ but DJ is busy now monkey patching binary code")
       clearInterval(this.interval)
+      alert("you said hi to DJ but DJ is busy now monkey patching binary code. Click Ok To restart the game")
+      document.location.reload()
     }
 
     this.ball.moveBall()
